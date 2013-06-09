@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter course name"
+        android:paddingBottom="10dp"
+        android:textSize="20dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/courselink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter course weblink"
+        android:paddingBottom="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/instructorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter instructor name"
+        android:paddingBottom="10dp"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/officehour_and_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Instructor and office hours details"
+        android:paddingBottom="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/lectureschedule"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Lecture Schedule" />
+
+    <Button
+        android:id="@+id/tutorialschedule"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tutorial Schedule" />
+
+    <Button
+        android:id="@+id/labschedule"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Lab Schedule" />
+    <Button
+        android:id="@+id/bdoneeditadd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+</LinearLayout>

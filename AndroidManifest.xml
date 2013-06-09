@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acadplnr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.acadplnr.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acadplnr.Courses"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.Courses" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home" />
+        <activity
+            android:name=".TimeTable" />
+        <activity
+            android:name=".Calendar" />
+        <activity
+            android:name=".Notification" />
+        <activity
+            android:name="com.acadplnr.CourseDatabase"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.CourseDatabase" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acadplnr.course1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.course1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.acadplnr.noCourse"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.noCourse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
+            <activity
+            android:name="com.acadplnr.Update"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.Update" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.acadplnr.CourseDisplay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.CourseDisplay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acadplnr.TimeDate"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.TimeDate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acadplnr.EditCourse"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.EDITCOURSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acadplnr.Timeedit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.acadplnr.Timeedit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+    </application>
+</manifest>
